@@ -6,7 +6,7 @@ def y():
     return 11-6
 
 def z():
-    print("dont do anything!")
+    return f"dont do anything!"
 
 if __name__ == '__main__':
     print(x())
