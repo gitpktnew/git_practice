@@ -7,6 +7,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Fetch Code
+        uses: actions/checkout@v6
       - name: Running a python app
         run: python3 demo.py
     
